@@ -4,7 +4,6 @@ import { getmealbyname } from "./store/actions"
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 const Home = (props) => {
-    console.log(props.mealbynameReducer.mealbyname[0])
     const [mealname, setMealname] = React.useState('')
     const searchmealbyname = () => {
         props.dispatch(getmealbyname(mealname))

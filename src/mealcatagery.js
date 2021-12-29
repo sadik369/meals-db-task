@@ -4,9 +4,7 @@ import { getmealbycat } from './store/actions'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useParams } from 'react-router-dom/cjs/react-router-dom.min';
 const Mealcatagery = (props) => {
-    console.log("props", props)
     const { cat } = useParams();
-    console.log("cat", cat)
     React.useEffect(() => {
         props.dispatch(getmealbycat(cat))
     }, [])
