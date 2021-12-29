@@ -1,0 +1,34 @@
+.head{
+  margin: 40px;
+}
+.sad{
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+
+.display{
+  display: block;
+}
+.none{
+  display:none;
+}
+.bl{
+  color: blue;
+}
+.img-caption{
+  text-align: center;
+}
+.mc{
+  margin-top: 50px;
+}
+.mainarea-inner-container{
+  margin-top: 50px;
+}
+.dh{
+  margin-bottom: 30px;
+}
+.ap{
+  margin-bottom: 30px;
+
+}
